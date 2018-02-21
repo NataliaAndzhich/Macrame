@@ -47,7 +47,7 @@ var config = {
     },
     tunnel: true,
     host: 'localhost',
-    port: 9000,
+    port: 8081,
     logPrefix: 'dev'
 };
 

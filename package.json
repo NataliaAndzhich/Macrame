@@ -1,7 +1,7 @@
 {
   "name": "FirstProject",
   "title": "FirstProject",
-  "version": "1",
+  "version": "1.0.0",
   "homepage": "http://startbootstrap.com/template-overviews/agency",
   "author": "Kristina",
   "license": {
@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-less": "^3.4.0",
@@ -28,6 +27,7 @@
     "url": "https://github.com/mightyprinces/mightyprinces.github.io"
   },
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1"
   }
 }
