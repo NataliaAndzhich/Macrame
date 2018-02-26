@@ -6,6 +6,26 @@
 }
 
 body {
-  
-  font-size: 40px;
+  color: @color-font-base;
+  font-size: @font-size-base;
+}
+
+.m-title {
+	color: @color-grey-darker;
+	font-size: @font-size-22;
+	margin: 0;
+	padding-bottom: 48px;
+}
+
+// Section
+
+section {
+	padding: 100px 0;
+	
+	&.u-bg-gradient {
+    	color: @color-white;
+    	.m-title {
+    		color: @color-white;
+    	}
+	}
 }
