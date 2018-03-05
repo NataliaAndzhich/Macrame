@@ -1,0 +1,22 @@
+/* Example:
+* <div class="m-list">
+* 	<div class="m-list-row">
+* 		<i class="fas fa-check-circle m-icon"></i>
+* 		<span>Amazing Design to Present Your App</span>
+* 	</div>
+* </div>  
+*/
+.m-list {
+	
+	&-row {
+		&:not(:last-child) {
+			padding-bottom: @space-base-half;
+		}
+		
+		.m-icon {
+			+ span {
+				padding-left: @space-small;
+			}
+		}
+	}
+}
