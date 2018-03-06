@@ -1,24 +1,38 @@
 @font-face {
-  font-family: "Dosis";
-  src: url("../fonts/Dosis-SemiBold.woff2") format("woff2");
-  font-weight: normal;
+  font-family: "Dosis-Bold";
+  src: url("../fonts/Dosis-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dosis-Regular";
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
   font-style: normal;
 }
 
 body {
   color: @color-font-base;
   font-size: @font-size-base;
+  font-family: @font-family-roboto-light;
+  -webkit-font-smoothing: antialiased;
 }
 
 .m-title {
 	color: @color-grey-darker;
-	font-size: @font-size-22;
+	font-size: @font-size-39;
+  font-family: @font-family-dosis-bold;
 	margin: 0;
 	padding-bottom: 48px;
 }
 
 // Section
-
 section {
 	padding: 100px 0;
 	
