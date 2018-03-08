@@ -16,5 +16,26 @@
 	padding: @space-base;
 	border-radius: @border-radius-base;
 
+	// For Desktop
+	@media (min-width: @screen-md) {
+		& {
+			text-align: left;
 
+			&-row {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				align-items: center;
+				align-content: center;
+			}
+
+			&-icon {
+				+ .m-card-info {
+					margin-left: @space-base-half;
+				}
+			}
+			
+		}
+		
+	}
 }
