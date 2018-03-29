@@ -15,6 +15,7 @@
 	color: @color-font-base;
 	padding: @space-base;
 	border-radius: @border-radius-base;
+	box-shadow: @box-shadow-base;
 
 	// For Desktop
 	@media (min-width: @screen-md) {
@@ -39,3 +40,34 @@
 		
 	}
 }
+
+/*
+* For download component
+*/
+// Hover color for icon m-card
+.m-apple,
+.m-android,
+.m-windows {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.m-apple:hover {
+	.m-card-icon {
+		color: @color-i-grey;
+	}
+}
+
+.m-android:hover {
+	.m-card-icon {
+		color: @color-i-green;
+	}	
+}
+
+.m-windows:hover {
+	.m-card-icon {
+		color: @color-i-blue;
+	}	
+}
+
