@@ -17,6 +17,11 @@
 	border-radius: @border-radius-base;
 	box-shadow: @box-shadow-base;
 
+	h4 {
+		font-family: @font-family-dosis-bold;
+		color: @color-grey-darker;
+	}
+
 	// For Desktop
 	@media (min-width: @screen-md) {
 		& {
@@ -39,11 +44,35 @@
 		}
 		
 	}
+
+	// For Tablet & Mobile
+	@media (max-width: @screen-md) {
+		& {
+			font-size: @font-size-12;
+		}
+	}
 }
 
 /*
 * For download component
 */
+.m-download {
+	h4 {
+		font-size: @font-size-22;
+		padding-bottom: @space-small;
+		line-height: 1;
+	}
+
+	// For Tablet & Mobile
+	@media (max-width: @screen-md) {
+		& {
+			.m-card-info {
+				padding-top: @space-base-half;
+			}
+		}
+	}
+}
+
 // Hover color for icon m-card
 .m-apple,
 .m-android,
